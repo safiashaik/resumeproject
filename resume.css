@@ -1,0 +1,130 @@
+.parent{
+  border:3px solid #ddd;
+  display: flex;
+  flex-direction: row;
+}
+leftchild img{
+  widht: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftchild{
+  border: 2px solid #ddd;
+  padding: 1%;
+  width: 30%;
+  margin: 1%;
+  font-size: 20px;
+  border-radius:10%;
+
+}
+.rightchild{
+  border: 2px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+  font-size: 20px;
+  border-radius:10%;
+
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .parent{
+    border:3px solid #ddd;
+    display: flex;
+    flex-direction: column;
+  }
+  leftchild img{
+    widht: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .leftchild{
+    border: 2px solid #ddd;
+    padding: 1%;
+    width: 90%;
+    margin: 1%;
+    font-size: 20px;
+    border-radius:10%;
+    background-color:#CA33FF;
+
+  }
+  .rightchild{
+    border: 2px solid #ddd;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    border-radius:10%;
+    width: 90%;
+    background-color:#CA33FF;
+
+  }
+
+}
+@media only screen and (min-width:481px) and (max-width:769px) {
+  .parent{
+    border:3px solid #ddd;
+    display: flex;
+    flex-direction: column;
+  }
+  leftchild img{
+    widht: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .leftchild{
+    border: 2px solid #ddd;
+    padding: 1%;
+    width: 90%;
+    margin: 1%;
+    font-size: 20px;
+    border-radius:10%;
+    background-color:#CA33FF;
+
+  }
+  .rightchild{
+    border: 2px solid #ddd;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    border-radius:10%;
+    width: 90%;
+    background-color:#CA33FF;
+
+  }
+
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  .parent{
+    border:3px solid #ddd;
+    display: flex;
+    flex-direction: column;
+  }
+  leftchild img{
+    widht: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .leftchild{
+    border: 2px solid #ddd;
+    padding: 1%;
+    width: 90%;
+    margin: 1%;
+    font-size: 20px;
+    border-radius:10%;
+    background-color:#CA33FF;
+
+  }
+  .rightchild{
+    border: 2px solid #ddd;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    border-radius:10%;
+    width: 90%;
+    background-color:#CA33FF;
+
+  }
+
+}
